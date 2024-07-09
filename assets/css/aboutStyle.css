@@ -1,0 +1,105 @@
+/* General styling for the about page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #ff6347;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ceo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ceo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.ceo h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Message section styling */
+.message {
+    text-align: left;
+}
+
+.message h2 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.message p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
