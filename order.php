@@ -28,7 +28,7 @@
                 <li><strong>Quantity:</strong> <?php echo htmlspecialchars($_POST['quantity']); ?></li>
                 <li><strong>Name:</strong> <?php echo htmlspecialchars($_POST['name']); ?></li>
                 <li><strong>Email:</strong> <?php echo htmlspecialchars($_POST['email']); ?></li>
-                <!-- Add more details as needed -->
+               
             </ul>
             <p>We will process your order shortly.</p>
         </section>

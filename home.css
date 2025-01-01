@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff6347;
-    padding: 1rem;
+    background-color: tomato;
+    padding: 0.2rem;
     color: white;
     text-align: center;
 }
@@ -36,8 +36,8 @@ nav ul li a {
 }
 
 .food-item {
-    border: 2px solid #ddd;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
     padding: 10px;
     text-align: center;
     width: 200px;
@@ -68,4 +68,21 @@ nav ul li a {
 
 .food-item button:hover {
     background-color: #e5533e;
+}
+.header-logo{
+    width: 90px;
+    height: auto;
+    display: block;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }

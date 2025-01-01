@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - KhadiFoody</title>
-    <link rel="stylesheet" href="assets/css/contactStyle.css">
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="contactStyle.css">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
 </head>
 <body>
     <header>
@@ -24,15 +24,12 @@
             <h2>Send Us a Message</h2>
             <form action="#" method="POST">
                 <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="name" placeholder="Your Email" required>
+                <input type="email" name="email" placeholder="Your address" required>
+                <input type="email" name="email" placeholder="Your phone Number" required>
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
-        </section>
-
-        <section class="map-container">
-            <!-- Replace with your customized map embed code -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.206646203052!2d7.62455851475912!3d12.961953619098484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104114b2161444cf%3A0x33bfef8a6e58c320!2sAl-Qalam%20University%20Katsina!5e0!3m2!1sen!2sng!4v1625651507077!5m2!1sen!2sng" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </main>
 
